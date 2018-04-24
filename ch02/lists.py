@@ -139,6 +139,9 @@ class DequeCalc(ListCalc):
         plt.xlabel('number')
         plt.ylabel('time')
 
+    def __str__(self):
+        return self.type
+
 
 if __name__ == '__main__':
     list_a = ListCalc()
